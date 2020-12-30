@@ -1,6 +1,140 @@
+* {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-bar{
+    margin-top: 15px;
+    overflow: hidden;
+    margin: 15px;
+}
+
+#sign-in {
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    background-color: #4583ec;
+    color: white;
+    padding: 8px 12px;
+    margin: 0px 15px;
+    border-radius: 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    color: #000;
+    opacity: 0.75;
+}
+.nav-bar-right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: right;
+}
+
+form {
+    display: block;
+    width: 50%;
+    margin-left: 23%;
+}
+
+
+#search {
+    display: flex;
+    justify-content: center;
+}
+
+#search-box {
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    height: 40px;
+    width: 38%;
+    display: inline-block;
+    padding-left: 50px;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    background: url(/Images/desktop_searchbox_sprites302_hr.webp) no-repeat scroll 10px 6px;
+    background-size: 30px;
+    font-size: 13px;
+    box-sizing: content-box;
+}
+
+#search-box:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#search-box:focus {
+    outline: none;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    overflow: visible;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 16px;
+    margin: 5px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+    line-height: 27px;
+}
+
+.button:hover {
+    color: #222;
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.hamburger {
+    height: 20px;
+    width: 20px;
+}
+
 .img-google {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 109px;
 }
